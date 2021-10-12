@@ -17,7 +17,7 @@ elif selected_window == 'Losers':
     st.dataframe(bse.topLosers())
 elif selected_window == 'BSE':
     code = st.number_input('Code:', )
-    time = st.selectbox('Time:', ['3M', '6M', '9M', '12M'])
+    time = st.selectbox('Time:', ['1M', '3M', '6M', '12M'])
     history = bse.getPeriodTrend(str(int(code)),time)
     chart_data = pd.DataFrame(history)
     chart_data.drop('date', axis=1, inplace=True)
