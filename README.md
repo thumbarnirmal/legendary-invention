@@ -15,4 +15,4 @@
 streamlit run app.py
 ```
 
-### Checkout [Streamlit docs](https://docs.streamlit.io/) for more information on uilding apps with it.
+### Checkout [Streamlit docs](https://docs.streamlit.io/) for more information on building apps with it.
